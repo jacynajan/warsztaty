@@ -1,0 +1,30 @@
+.pierwszy {
+    background-color: red;
+}
+
+.drugi {
+    background-color: green;
+}
+
+.trzeci {
+    background-color: aqua;
+}
+
+.czwarty {
+    background-color: blue;
+}
+
+#elementy-blokowe p {
+    display: inline;
+}
+
+#elementy-inline-block ul li {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+#display-none p {
+    display: none;
+}
