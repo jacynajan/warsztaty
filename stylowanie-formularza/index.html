@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Zapis uczestnika na szkolenie</h1>
+    <form action="https://formspree.io/jacynajan@gmail.com" method="POST">
+
+        <label>Imię<input type="text" name="imie" id="imie"></label>
+        <label>Nazwisko<input type="text" name="nazwisko" id="nazwisko"></label>
+        <label>Email<input type="email" name="mail"></label>
+        <label>Telefon<input type="number" name="quanity"></label>
+
+        <label>Wybierz miasto:<select name="select">
+          <option>Kraków</option>
+          <option>Warszawa</option>
+          <option>Gdańsk</option>
+         </select></label><br>
+
+        <label>Wybierz pleć</label><br>
+        <label><input type="radio" name="gender">Mężczyzna</label>
+        <label><input type="radio" name="gender">Kobieta</label><br>
+
+        <label>Wiadomość<textarea maxlength="100" name="message"></textarea></label><br>
+
+        <label><input type= "checkbox" name="agreement">Wyrażam zgodę na przetwarzanie moich danych osobowych</label><br>
+
+        <input type="submit" value="Zapisz!">
+
+    </form>
+</body>
+
+</html>
